@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #231E23;
+  line-height: 2;
+}
+
+h2 {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #231E23;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #BF1363;
+}
+
+a {
+  color: #BF1363;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 7px 0 0 0;
+  border-color: #686D76;
+  width: 4%;
+  margin: 80px auto;
+}
+
+.pro-img {
+  margin-top: 20px;
+  width: 15%;
+}
+
+.top-container {
+  background-color: #39A6A3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #DEEEEA;
+}
+
+.bottom-container {
+  background-color: #231E23;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.vg-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .code-skill-desc{
+  clear: left;
+}
+
+.vg-skill-desc {
+  clear: right;
+} */
+.contact-me {
+  padding-bottom: 40px;
+}
+
+.cont-desc {
+  margin-bottom: 40px;
+}
+
+.btn {
+  box-shadow: 3px 4px 0px 0px #fbafe3;
+  	background:linear-gradient(to bottom, #BF1363 5%, #ef027d 100%);
+  	background-color:#BF1363;
+  	border-radius:18px;
+  	border:1px solid #ee1eb5;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#DEEEEA;
+  	font-family:sans-serif;
+  	font-size:17px;
+  	padding:7px 25px;
+  	text-decoration:none;
+  	text-shadow:0px 1px 0px #c70067;
+}
+
+.bottom-container {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+.footer-link{
+  text-decoration: none;
+  margin-right: 60px;
+  font-weight: bold;
+}
+
+.footer-link:first-child {
+  margin-left: 40px;
+}
+
+.footer-link:last-child {
+  margin-right: 0;
+}
+
+.bottom-container p{
+  margin-top: 30px;
+  color: #DEEEEA;
+
+}
